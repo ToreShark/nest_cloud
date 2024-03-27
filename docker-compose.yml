@@ -1,0 +1,13 @@
+version: "3"
+services:
+  app:
+    image: your-app-image
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      DB_HOST: 34.18.41.140
+      DB_PORT: 5432
+      DB_USER: postgres
+      DB_PASSWORD: pass123
+      DB_NAME: pass123

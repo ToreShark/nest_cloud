@@ -1,0 +1,15 @@
+runtime: flex
+env: flex
+
+env_variables:
+  DB_HOST: "34.18.41.140"
+  DB_PORT: "5432"
+  DB_USER: "postgres"
+  DB_PASSWORD: "pass123"
+  DB_NAME: "postgres"
+
+automatic_scaling:
+  min_num_instances: 1
+  max_num_instances: 10
+  cpu_utilization:
+    target_utilization: 0.6
