@@ -7,8 +7,7 @@ env_variables:
   DB_PASSWORD: "pass123"
   DB_NAME: "postgres"
 
-automatic_scaling:
-  min_num_instances: 1
-  max_num_instances: 10
+manual_scaling:
+  instances: 2
   cpu_utilization:
     target_utilization: 0.6
