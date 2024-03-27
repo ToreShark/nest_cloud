@@ -1,4 +1,3 @@
-runtime: flex
 env: flex
 
 env_variables:
